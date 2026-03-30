@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <!-- makes layout adjust on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Campus Life App - Home</title>
+
+  <!-- linking my custom css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- this is the "phone screen" container from the design -->
+  <main class="phone-screen">
+
+    <!-- top header -->
+    <header class="app-header">
+      <p>Header</p>
+      <h1>Campus life app</h1>
+    </header>
+
+    <!-- thin red line under header -->
+    <div class="red-line"></div>
+
+    <!-- top navigation buttons -->
+    <nav class="top-nav">
+      <a href="events.html" class="nav-btn">Events</a>
+      <a href="dining.html" class="nav-btn">Dining</a>
+    </nav>
+
+    <!-- another divider like in the wireframe -->
+    <div class="red-line"></div>
+
+    <!-- main content area -->
+    <section class="content-area">
+
+      <!-- events box -->
+      <section class="feature-box">
+        <h2>Upcoming<br>events</h2>
+
+        <!-- takes user to events page -->
+        <a href="events.html" class="outline-btn">View events</a>
+      </section>
+
+      <!-- dining box -->
+      <section class="feature-box">
+        <h2>Dining today</h2>
+
+        <!-- takes user to dining page -->
+        <a href="dining.html" class="outline-btn">View information</a>
+      </section>
+
+      <!-- classes box -->
+      <section class="feature-box">
+        <h2>Classes<br>information</h2>
+
+        <!-- button triggers JS -->
+        <button class="outline-btn" id="class-btn">View</button>
+
+        <!-- JS inserts text here -->
+        <p id="class-info" class="info-text"></p>
+      </section>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="app-footer">Footer link</footer>
+
+  </main>
+
+  <!-- javascript file -->
+  <script src="js/script.js"></script>
+</body>
+</html>

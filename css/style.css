@@ -1,1 +1,116 @@
+/* whole page background (gray like your mockup) */
+body {
+  background-color: #e5e5e5;
+  font-family: Arial, sans-serif;
+}
 
+/* phone frame */
+.phone-screen {
+  width: 320px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 25px;
+  padding: 15px;
+  border: 2px solid #ccc;
+}
+
+/* header */
+.app-header {
+  text-align: center;
+  font-size: 12px;
+}
+
+/* red divider lines */
+.red-line {
+  height: 2px;
+  background-color: red;
+  margin: 10px 0;
+}
+
+/* nav buttons */
+.top-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* black buttons */
+.nav-btn {
+  background: black;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* main content spacing */
+.content-area {
+  text-align: center;
+}
+
+/* boxes */
+.feature-box {
+  border: 2px solid #999;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+/* red outline buttons */
+.outline-btn {
+  border: 1px solid red;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  background: none;
+}
+
+/* search row */
+.search-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.search-row input {
+  flex: 1;
+}
+
+/* menu buttons */
+.menu-buttons {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+/* gallery */
+.gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.img-box {
+  width: 70px;
+  height: 70px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* back button */
+.back-btn {
+  display: block;
+  background: #ccc;
+  padding: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* footer */
+.app-footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
